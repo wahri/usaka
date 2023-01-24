@@ -1,0 +1,89 @@
+body {
+    background-color: #3f4e5f;
+}
+
+.container {
+    background-color: #d8e0ea;
+    border-radius: 25px;
+}
+
+.home-page {
+    align-items: center;
+    background-color: #0e3356;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link {
+    background-color: #0e3356;
+    border-radius: 5px;
+}
+
+.navbar-scrolled .nav-link:hover {
+    background-color: #134472;
+    transition: 0.5s all;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+    background-color: #fff;
+    transition: 0.3s all;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3f4e5f;
+}
+
+.contact {
+    max-height: 90vh;
+    width: 30%;
+    min-width: 500px;
+    overflow: hidden;
+}
+
+/* .footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+} */
+
+.detail-contact > p{
+    font-size: 10px;
+    margin: 0;
+}
+
+.desc-project{
+    /* height: 100%; */
+    /* max-height: 70vh; */
+    overflow: hidden;
+}
+
+.body-desc{
+    overflow: auto;
+    max-height: 400px;
+}
+
+.nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            color: #3f4e5f;
+            background-color: #F4C1C7;
+        }
